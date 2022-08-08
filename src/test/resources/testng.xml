@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SampleSuite">
+
+    <test name="SampleTest">
+    	<parameter name="url" value="https://www.finzipp.com/" />
+		<parameter name="user" value="tapanachary.44@gmail.com" />
+		<parameter name="password" value="111111" />
+		<parameter name="browser" value="chrome" />
+		<parameter name="env" value="QA" />
+        <classes>
+           <class name="testng.HomeTest" />
+        </classes>
+    </test>
+    
+</suite>
