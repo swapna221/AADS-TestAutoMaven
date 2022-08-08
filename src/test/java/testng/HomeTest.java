@@ -23,11 +23,11 @@ public class HomeTest {
 			driver = new FirefoxDriver();
 			
 		}
-		driver.get(url);
-		driver.findElement(By.className("cursor-pointer")).click();
-		driver.findElement(By.xpath("//input[@name=\"userId\"]")).sendKeys(user);
-		driver.findElement(By.xpath("//input[@name=\"password\"]")).sendKeys(password);
-		driver.findElement(By.xpath("//span[@class=\"ng-star-inserted\"]")).click();
+//		driver.get(url);
+//		driver.findElement(By.className("cursor-pointer")).click();
+//		driver.findElement(By.xpath("//input[@name=\"userId\"]")).sendKeys(user);
+//		driver.findElement(By.xpath("//input[@name=\"password\"]")).sendKeys(password);
+//		driver.findElement(By.xpath("//span[@class=\"ng-star-inserted\"]")).click();
 		//driver.close();
 	}
 	
