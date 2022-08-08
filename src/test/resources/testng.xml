@@ -7,6 +7,7 @@
 		<parameter name="password" value="111111" />
 		<parameter name="browser" value="chrome" />
 		<parameter name="env" value="QA" />
+		<parameter name="server" value="Dev" />
         <classes>
            <class name="testng.HomeTest" />
         </classes>
