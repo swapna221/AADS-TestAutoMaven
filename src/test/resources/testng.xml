@@ -3,7 +3,7 @@
 
     <test name="SampleTest">
     	<parameter name="url" value="https://www.finzipp.com/" />
-		<parameter name="user" value="tapanachary.44@gmail.com" />
+		<parameter name="user" value="abc@gmail.com" />
 		<parameter name="password" value="111111" />
 		<parameter name="browser" value="chrome" />
 		<parameter name="env" value="QA" />
